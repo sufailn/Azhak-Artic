@@ -1,7 +1,10 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import { Poppins } from '@next/font/google';
+import './globals.css';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-// src/app/layout.tsx
+const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600', '700'] });
+
 export const metadata = {
   title: 'Azhak Artic - Futuristic Fashion',
   description: 'Explore the future of fashion with Azhak Artic.',
@@ -14,13 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="font-[Poppins]">
+      <body className={poppins.className}>
         <Navbar />
         {children}
         <Footer />
