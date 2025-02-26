@@ -15,7 +15,7 @@ export default function Navbar() {
       className="fixed top-0 left-0 w-full z-50 glass py-4 px-4 md:px-8 flex flex-col md:flex-row justify-between items-center"
     >
       <div className="flex justify-between w-full md:w-auto">
-        <Link href="/" className="text-xl md:text-2xl font-bold text-azhak-maroon">
+        <Link href="/" className="text-xl md:text-2xl font-bold text-azhak-maroon font-poppins">
           Azhak Artic
         </Link>
         <button
@@ -30,18 +30,18 @@ export default function Navbar() {
           isOpen ? 'block' : 'hidden md:flex'
         }`}
       >
-        <Link href="#collections" className="hover:text-gold transition">
+        <Link href="#collections" className="hover:text-gold transition font-poppins">
           Collections
         </Link>
-        <Link href="#products" className="hover:text-gold transition">
+        <Link href="#products" className="hover:text-gold transition font-poppins">
           Products
         </Link>
-        <Link href="#story" className="hover:text-gold transition">
+        <Link href="#story" className="hover:text-gold transition font-poppins">
           Our Story
         </Link>
         <motion.button
           whileHover={{ scale: 1.1 }}
-          className="px-4 py-2 bg-azhak-maroon text-azhak-beige rounded-full"
+          className="px-4 py-2 bg-azhak-maroon text-azhak-beige rounded-full font-poppins"
         >
           Cart (0)
         </motion.button>

@@ -1,7 +1,8 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-
 // src/app/layout.tsx
+import './globals.css';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
 export const metadata = {
   title: 'Azhak Artic - Futuristic Fashion',
   description: 'Explore the future of fashion with Azhak Artic.',
@@ -20,7 +21,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-[Poppins]">
+      <body className="font-poppins min-h-screen">
         <Navbar />
         {children}
         <Footer />
