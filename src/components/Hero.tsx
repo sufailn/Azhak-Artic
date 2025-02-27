@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-gold"
         >
-          Welcome to Azhak Artic
+          Welcome to AzhaG Artic
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}

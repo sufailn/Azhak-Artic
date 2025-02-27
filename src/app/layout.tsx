@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Azhak Artic - Futuristic Fashion',
-  description: 'Explore the future of fashion with Azhak Artic’s innovative designs.',
+  title: 'AzhaG Artic - Futuristic Fashion',
+  description: 'Explore the future of fashion with Azhag Artic’s innovative designs.',
   keywords: 'futuristic fashion, Azhak Artic, e-commerce, sustainable clothing',
   openGraph: {
     title: 'Azhak Artic - Futuristic Fashion',
@@ -16,7 +16,7 @@ export const metadata = {
         url: 'https://azhak-artic.vercel.app/images/hero-poster.jpg',
         width: 1200,
         height: 630,
-        alt: 'Azhak Artic Hero Image',
+        alt: 'AzhaG Artic Hero Image',
       },
     ],
   },
