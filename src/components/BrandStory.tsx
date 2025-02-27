@@ -13,13 +13,13 @@ export default function BrandStory() {
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gold mb-6 md:mb-12">
         Our Journey
       </h2>
-      <div className="max-w-5xl mx-auto px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+      <div className="max-w-3xl mx-auto px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
         <motion.div style={{ opacity, scale }} className="flex justify-center">
           <Image
             src="/images/team.jpg"
             alt="Team"
             width={500}
-            height={400}
+            height={500}
             className="rounded-lg shadow-lg w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px]"
           />
         </motion.div>
@@ -30,13 +30,13 @@ export default function BrandStory() {
           <p className="text-sm sm:text-lg mb-4 md:mb-6">
             Sustainability is at our core. From eco-friendly materials to ethical production, we’re committed to a greener future.
           </p>
-          <Image
+          {/* <Image
             src="/images/sustainability.jpg"
             alt="Sustainability"
             width={300}
             height={200}
             className="rounded-lg mt-4 w-full max-w-[250px] sm:max-w-[300px]"
-          />
+          /> */}
         </div>
       </div>
     </section>

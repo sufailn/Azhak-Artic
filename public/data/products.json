@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Winter Glow Jacket", "image": "/images/collection1.jpg", "category": "Winter", "price": 129.99 },
+  { "id": 2, "name": "Golden Hour Dress", "image": "/images/collection2.jpg", "category": "Summer", "price": 89.99 },
+  { "id": 3, "name": "Beige Bliss Shirt", "image": "/images/collection3.jpg", "category": "Spring", "price": 59.99 },
+  { "id": 4, "name": "Maroon Muse Coat", "image": "/images/collection4.jpg", "category": "Fall", "price": 149.99 },
+  { "id": 5, "name": "Frosty Elegance Scarf", "image": "/images/collection1.jpg", "category": "Winter", "price": 39.99 },
+  { "id": 6, "name": "Sunbeam Skirt", "image": "/images/collection2.jpg", "category": "Summer", "price": 69.99 }
+]

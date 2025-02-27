@@ -1,7 +1,7 @@
-import Hero from '../components/Hero';
-import Collections from '../components/Collections';
-import ProductShowcase from '../components/ProductShowcase';
-import BrandStory from '../components/BrandStory';
+import Hero from '@/components/Hero';
+import Collections from '@/components/Collections';
+import ProductShowcase from '@/components/ProductShowcase';
+import BrandStory from '@/components/BrandStory';
 
 export default function Home() {
   return (
